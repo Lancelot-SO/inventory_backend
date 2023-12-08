@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://inventory-app-eight-livid.vercel.app"],
+    origin: ["http://localhost:3000", "https://inventory-app-ruddy.vercel.app"],
     credentials: true,
   })
 );
